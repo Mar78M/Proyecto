@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(2, 9, 66);
+}
+
+nav{
+    background-color: rgb(2, 2, 37);
+    height: 80px;
+    width: 100%;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(5, 0, 0, 0.8) 0px 0px 50px;
+    border-radius: 20px;
+}
+
+input, textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rebeccapurple;
+}
+
+input:focus, textarea:focus{
+    border-bottom: red;
+}
+
+button {
+    border: none;
+    outline: none;
+    background: green;
+    padding: 15px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    box-shadow: black 0px 0px 10px;
+    margin: 20px 0px;
+    cursor:pointer;
+    transition: all 300ms;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: rgb(255, 255, 255) opx 0px 10px;
+}

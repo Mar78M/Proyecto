@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+.parrafo{
+    z-index: 1;
+    width: 1300px;
+    height: 180px;
+    padding: 20px 20px;
+    font-size: 15px;
+    line-height: 1.5;
+    background: #fff;
+    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+    border-radius: 5px;
+    text-align: justify;
+}
+
+.parrafo img{
+width: 150px;
+border-radius: 5px;
+float:left;
+margin-right: 20px;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(2, 9, 66);
+}
+
+nav{
+    background-color: rgb(2, 2, 37);
+    height: 80px;
+    width: 100%;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
